@@ -7,8 +7,8 @@ public class Test {
 		
 		try {
 			
-			AdresseIP a1 = new AdresseIP(192, 168, 0, 1);
-			System.out.println(a1.toString());
+			AdresseIP aa = new AdresseIP(123, 125, 45, 10);
+			System.out.println(aa.toString());
 			
 		} catch (AdresseIPException e) {
 				
@@ -19,8 +19,8 @@ public class Test {
 		
 		try {
 			
-			AdresseIP a2 = new AdresseIP(192, 168, 0, 256);
-			System.out.println(a2.toString());
+			AdresseIP aaa = new AdresseIP(145, 146, 267, 256);
+			System.out.println(aaa.toString());
 			
 		} catch (AdresseIPException e1) {
 				

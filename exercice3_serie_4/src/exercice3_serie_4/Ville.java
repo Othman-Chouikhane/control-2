@@ -24,7 +24,7 @@ public class Ville {
 		
 		if (population <= 0 ) throw new PopulationException("La population doit être un nombre positif ");
 		else 
-			System.out.print("ça marche");
+			System.out.print("bein");
 		
 		
 	} 

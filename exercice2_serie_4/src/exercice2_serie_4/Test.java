@@ -7,13 +7,13 @@ public class Test {
 	public static void main (String [] args)
 	{
 		
-		Enfant a = new Enfant();
-		Enfant b = new Enfant();
+		Enfant ee = new Enfant();
+		Enfant eee = new Enfant();
 		
 		try  
         {  
-            a.age(12);
-            b.age(2);
+            a.age(13);
+            b.age(9);
         }  
         catch (AgeEnfantException e1)  
         {    

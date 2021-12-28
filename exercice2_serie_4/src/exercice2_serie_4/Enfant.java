@@ -18,7 +18,7 @@ public class Enfant {
 		this.age = age;
 		if (age <= 1 || age >= 10 ) throw new AgeEnfantException ("[" + age + "]" + " ans n'est pas un âge valide !");
 		else 
-			System.out.print("ça marche");
+			System.out.print("bien");
 	}
 	
 	

@@ -4,14 +4,14 @@ public class Test {
 	
 	public static void main (String [] args) 
 	{
-		Ville v1 = new Ville("casa" , 1289000 , "maroc");
-		Ville v2 = new Ville("rabat" , -12345 , "maroc");
+		Ville vv = new Ville("casa" , 12893434 , "maroc");
+		Ville vvv = new Ville("rabat" , -12000404 , "maroc");
 		
 		
 		try  
         {  
-			v1.population();
-			v2.population();
+			vv.population();
+			vvv.population();
         }  
         catch (PopulationException e)  
         {    
